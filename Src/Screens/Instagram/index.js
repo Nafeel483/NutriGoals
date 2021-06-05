@@ -96,20 +96,20 @@ class Instagram extends Component {
               </View>
             </View>
           </View>
+          <View style={{ backgroundColor: Colors.backgroundColor }}>
           <Text style={Styles.inputTextStyle1}>{'Highlights:'}</Text>
 
-
-          <View style={Styles.headerContentWrapper}>
-            <View style={Styles.headerContent}>
-              <FlatList
-                showsHorizontalScrollIndicator={false}
-                horizontal={true}
-                data={storyData}
-                renderItem={({ item }) => this.showProfileWrapper(item)}
-              />
+            <View style={Styles.headerContentWrapper}>
+              <View style={Styles.headerContent}>
+                <FlatList
+                  showsHorizontalScrollIndicator={false}
+                  horizontal={true}
+                  data={storyData}
+                  renderItem={({ item }) => this.showProfileWrapper(item)}
+                />
+              </View>
             </View>
           </View>
-
           <ScrollView showsVerticalScrollIndicator={false}>
             <View style={Styles.mainDataWrapper}>
 

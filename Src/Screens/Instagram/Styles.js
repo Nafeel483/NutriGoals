@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.ok,
   },
   safeViewStyle: {
-    backgroundColor: Colors.backgroundColor,
+    backgroundColor: Colors.White,
     flex: 1
   },
   headerWrapper: {
